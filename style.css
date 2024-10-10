@@ -1,0 +1,39 @@
+.navbar-dark .navbar-nav .nav-item .bi {
+    color: white;
+}
+
+.custom-text {
+    position: absolute;
+    right: 500px; /* Adjust this value to move the text more or less to the right */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Main Content Styling */
+.main-content {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    min-height: calc(100vh - 80px); /* Full viewport height minus navbar */
+    background-color: #fff8f0; /* Matches the body background color */
+}
+
+.center-image {
+    max-width: 200%;
+    max-height: 100%
+ 
+    /* Optional: Add any additional styling, such as borders or shadows */
+}
+
+/* Footer Styling */
+.footer {
+    height: 30vh !important;
+    background-color:  #EDC601;
+    color: black;
+    padding: 40px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px
+}
+
+
+
